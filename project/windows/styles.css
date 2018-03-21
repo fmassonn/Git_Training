@@ -1,0 +1,15 @@
+.master {
+  background-color: yellow;
+  color: white;
+}
+
+.example {
+  background-color: skyblue;
+  color: gray;
+}
+h2.example {
+  font-style: italic;
+  text-align: center;
+  color: teal;
+}
+
