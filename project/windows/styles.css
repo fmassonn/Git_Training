@@ -1,5 +1,5 @@
 .master {
-  background-color: yellow;
+  background-color: green;
   color: white;
 }
 
@@ -7,6 +7,12 @@
   background-color: skyblue;
   color: gray;
 }
+
+.ceres20 {
+  background-color: pink;
+  color: gray;
+}
+
 h2.example {
   font-style: italic;
   text-align: center;
