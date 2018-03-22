@@ -78,6 +78,8 @@ Git has noticed that the file you edited has been modified: a red exclamation ma
 
 This will open a dialog where you can leave a message explaining what you did. **Take this step seriously!** Commits are the backbone a project: together, they define all the steps that the project has gone through, so it is important to document what each commit corresponds to. Producing clear documentation is another basics of collaborative work.
 
+Note that you can do as many commits as you wish while developing your function. If you reach a point at which any of the open issues gets solved, you can make your commit message end with `Fixes #issue_number` ([Exercise 4 – Open new issue in Git_Training project](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/project/windows/issues)).
+
 After the commit, the file should appear with a green "V". Congratulations, you did your first commit!
 
 #### Exercise 4 - Push your changes
@@ -93,57 +95,75 @@ Right-click no the main folder ('Git_Training'), go to TortoiseGit, and click "p
 
 
 #### Exercise 6 - Managing conflicts
-The previous example went smoothly, because the changes introduced by each of the project participants were 
+The previous example went smoothly, because the changes introduced by each of the project participants were well delimited in the common document.
 
-In the beginning you will modify the file `styles.css` by adding your own style. Here there an usefull link for [CSS Colors](https://www.w3schools.com/cssref/css_colors.asp)
+We will now introduce changes that, potentially, can induce conflicts. For this we are going to work in the "styles" file `styles.css`. Here there an usefull link for [CSS Colors](https://www.w3schools.com/cssref/css_colors.asp). 
 
-Then you will modify `branching-website.html` to apply your style to your own section.
+To do so, we divide the classroom in two sub-groups: the "left" branch, and the "right" branch. For both sub-groups the tutors are going to create a **branch** live in the classroom. A branch is a line of the development that can move forward independtly of the main line of the development ("the master"). Eventually, branches should be merged back to the master.
 
-In a further chapter of this tutorial, we will merge all the styles in the same file `branching-website.html` and we will see how git helps on the process of resolving conflicts.
-
-#### Exercise 6 – Perform function commit
-
-Now you have time to make changes in Git_Training project, i.e. modify 'styles.css' file and develop your style. After that, if we check the status of our project again, 
-
+Create a branch in your local copy: right-click, create branch.
+* If you belong to the left group, create a branch named develop-red
+Then switch to the branch, make changes in the styles.css file. If you belong to the "left" group, your style changes will be to make things appear in reddish tones. Edit the `styles.css` file to reach this:
 ```
-git add .
+.master {
+  background-color: red;
+  color: white;
+}
+
+.item {
+  background-color: orange;
+  color: white;
+}
 ```
+and then visualize the result.
 
-Git now knows that it’s supposed to keep track of 'styles.css', but it hasn’t recorded these changes as a commit yet. To get it to do that, we need to run one more command:
-
+* If you belong to the right group, create a branch named develop-green
+Then switch to the branch, make changes in the styles.css file. Your style changes will be to make things appear in greenish tones. Edit the `styles.css` file to reach this:
 ```
-git commit -m "message explaining what you have done. Fixes issue #issue_number"
+.master {
+  background-color: green;
+  color: white;
+}
+
+.item {
+  background-color: darkgreen;
+  color: white;
+}
 ```
+and then visualize the result.
 
-When we run `git commit`, Git takes everything we have told it to save by using `git add` and stores a copy permanently inside the special `.git` directory. This permanent copy is called a commit (or revision) and its short identifier is `f22b25e` (Your commit may have another identifier.)
+As usual, commit your changes when you are satisfied, and push them.
 
-You can do as many commits as you wish while developing your function. If you reach a point at which any of the open issues gets solved, you can make your commit message end with `Fixes #issue_number` ([Exercise 4 – Open new issue in Git_Training project](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/project/windows/issues)).
+#### Exercise 7 – Merge branches back to the master: conflicts
 
-If you don't specify the `-m` parameter a text editor will open automatically to allow you to write the commit message.
-
-You can now ask Git to show the project history to check that the commit was successful by using:
-
-```
-git log
-```
-
-#### Exercise 7 – Perform run script commit
-
-You can now modify `branching-website.html` file to add the section `div` to your newly created style.
-
-Test it by opening the html file in a web browser.
-
-When you are sure it's fine, perform a separate commit by following similar steps as in previous exercise:
-
-```
-git add branching-website.html
-git commit
+The tutors - as supervisors of the project - will now merge the two branches back to the master. Follow their instructions.
 ```
 
-#### Exercise 8 – Push git_tutorial project branch
-
+#### Exercise 8 - Solving conflicts while on the same branch
+It can happen that, when you pull the project, other users working in the same branch as you have introduced conflicting changes. Think for example at a simple text file that says
 ```
-git push origin <branch_name>
+[file.txt]
+a = 1
+b = 3
 ```
 
-where `<branch_name>` is the name used in the previous step.
+Suppose that your colleague has modified the file into 
+```
+[file.txt]
+a = 2
+b = 3
+c = 4
+```
+and has already pushed the changes to the remote. If you "pull" the project, Git will add the line "c = 4", but won't know what to do about the line "a = ...". It will notify conflicts, and you will be asked to manually decide how the final file should look like.
+
+You can experiment this by changing the "styles.css" file and attempting to pull/push the results. With 24 people working on the same line of code, there will certainly be conflicts, but at least each of them can be solved cleanly.
+
+
+
+
+
+
+
+
+
+
