@@ -1,11 +1,11 @@
 .master {
-  background-color: yellow;
-  color: white;
+  background-color: blue;
+  color: skyblue;
 }
 
-.example {
+.item {
   background-color: skyblue;
-  color: gray;
+  color: darkblue;
 }
 h2.example {
   font-style: italic;
