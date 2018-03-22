@@ -1,11 +1,11 @@
 .master {
-  background-color: blue;
-  color: skyblue;
+  background-color: darkblue;
+  color: white;
 }
 
 .item {
-  background-color: skyblue;
-  color: darkblue;
+  background-color: blue;
+  color: white;
 }
 
 h2.example {
