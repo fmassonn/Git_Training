@@ -137,7 +137,6 @@ As usual, commit your changes when you are satisfied, and push them.
 #### Exercise 7 – Merge branches back to the master: conflicts
 
 The tutors - as supervisors of the project - will now merge the two branches back to the master. Follow their instructions.
-```
 
 #### Exercise 8 - Solving conflicts while on the same branch
 It can happen that, when you pull the project, other users working in the same branch as you have introduced conflicting changes. Think for example at a simple text file that says
