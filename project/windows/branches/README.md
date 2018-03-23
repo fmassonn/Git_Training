@@ -14,10 +14,15 @@ Create a branch in your local copy: right-click, create branch.
 
 |||
 | -------- | -------- |
-| If you belong to the left group, create a branch named develop-red
-Then switch to the branch, make changes in the styles.css file. If you belong to the "left" group, your style changes will be to make things appear in reddish tones.
- | If you belong to the right group, create a branch named develop-green
-Then switch to the branch, make changes in the styles.css file. Your style changes will be to make things appear in greenish tones. |
+| If you belong to the left group, create a branch named `develop-red`. Then switch to the branch, make changes in the `styles.css` file. If you belong to the "left" group, your style changes will be to make things appear in reddish tones. | If you belong to the right group, create a branch named `develop-green`. Then switch to the branch, make changes in the `styles.css` file. Your style changes will be to make things appear in greenish tones. 
+| `.master {` | `.master {` |
+| `  background-color: red;` | `  background-color: green;` |
+| `  color: white;` | `  color: white;` |
+| `}` | `}` |
+| `.item {` | `.item {` |
+| `  background-color: orange;` | `  background-color: darkgreen;` |
+| `  color: white;` | `  color: white;` |
+| `}` | `}` |
 
 
 ## Exercise 7 - Managing conflicts
