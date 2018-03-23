@@ -1,8 +1,8 @@
 # Git tutorial - session
 We are going to do some exercises in this dummy project.
 
-- [linux](https://github.com/fmassonn/Git_Training/src/master/project/linux)
-- [windows](https://github.com/fmassonn/Git_Training/src/master/project/windows)
+- [linux](https://github.com/fmassonn/Git_Training/tree/master/project/linux)
+- [windows](https://github.com/fmassonn/Git_Training/tree/master/project/windows)
 
 ## Basics
 

@@ -2,9 +2,9 @@
 
 ## Git cheat sheet
 
-- [git-cheat-sheet.pdf](https://github.com/fmassonn/Git_Training/src/master/resources/git-cheat-sheet.pdf)
-- [git-refcard.pdf](https://github.com/fmassonn/Git_Training/src/master/resources/git-refcard.pdf)
-- [github-git-cheat-sheet.pdf](https://github.com/fmassonn/Git_Training/src/master/resources/github-git-cheat-sheet.pdf)
+- [git-cheat-sheet.pdf](https://github.com/fmassonn/Git_Training/tree/master/resources/git-cheat-sheet.pdf)
+- [git-refcard.pdf](https://github.com/fmassonn/Git_Training/tree/master/resources/git-refcard.pdf)
+- [github-git-cheat-sheet.pdf](https://github.com/fmassonn/Git_Training/tree/master/resources/github-git-cheat-sheet.pdf)
 
 ## Git for Windows or Mac OS X
 
@@ -46,4 +46,4 @@ Now, open a terminal and use Git as you do on Linux...
 
 Here are a few commands that you may not know yet, or that offer options you haven’t been aware of so far.
 
-[Tricky commands](https://github.com/fmassonn/Git_Training/src/master/resources/tricky.md)
+[Tricky commands](https://github.com/fmassonn/Git_Training/tree/master/resources/tricky.md)

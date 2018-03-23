@@ -24,7 +24,7 @@ git commit -m "message explaining what you have done. Fixes issue #issue_number"
 
 When we run `git commit`, Git takes everything we have told it to save by using `git add` and stores a copy permanently inside the special `.git` directory. This permanent copy is called a commit (or revision) and its short identifier is `f22b25e` (Your commit may have another identifier.)
 
-You can do as many commits as you wish while developing your function. If you reach a point at which any of the open issues gets solved, you can make your commit message end with `Fixes #issue_number` ([Exercise 4 – Open new issue in Git_Training project](https://github.com/fmassonn/Git_Training/src/master/project/linux/gogs_issues)).
+You can do as many commits as you wish while developing your function. If you reach a point at which any of the open issues gets solved, you can make your commit message end with `Fixes #issue_number` ([Exercise 4 – Open new issue in Git_Training project](https://github.com/fmassonn/Git_Training/tree/master/project/linux/gogs_issues)).
 
 If you don't specify the `-m` parameter a text editor will open automatically to allow you to write the commit message.
 

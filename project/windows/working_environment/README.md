@@ -4,7 +4,7 @@
 
 First of all you will have to configure git locally in your desktop:
 
-You must have git installed. See the instructions [here](https://github.com/fmassonn/Git_Training/src/master/resources/README.md)
+You must have git installed. See the instructions [here](https://github.com/fmassonn/Git_Training/tree/master/resources/README.md)
 
 Go to [https://github.com/](https://github.com/) and "Sign-in".
 
