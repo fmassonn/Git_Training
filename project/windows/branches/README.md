@@ -10,11 +10,9 @@ You can think of it like making an entire copy of your repository folder that yo
 
 ## Exercise 7 – Create branch in Git_Training project
 
-Create a branch in your local copy: right-click, create branch.
-
-|||
+| If you belong to the left group | If you belong to the right group 
 | -------- | -------- |
-| If you belong to the left group, create a branch named `develop-red`. Then switch to the branch, make changes in the `styles.css` file. If you belong to the "left" group, your style changes will be to make things appear in reddish tones. | If you belong to the right group, create a branch named `develop-green`. Then switch to the branch, make changes in the `styles.css` file. Your style changes will be to make things appear in greenish tones. 
+| Ceate a branch named `develop-red`. Then switch to the branch, make changes in the `styles.css` file. | Create a branch named `develop-green`. Then switch to the branch, make changes in the `styles.css` file. |
 | `.master {` | `.master {` |
 | `  background-color: red;` | `  background-color: green;` |
 | `  color: white;` | `  color: white;` |
@@ -23,9 +21,9 @@ Create a branch in your local copy: right-click, create branch.
 | `  background-color: orange;` | `  background-color: darkgreen;` |
 | `  color: white;` | `  color: white;` |
 | `}` | `}` |
+| Your style changes will be to make things appear in reddish tones. | Your style changes will be to make things appear in greenish tones. |
 
-
-## Exercise 7 - Managing conflicts
+Create a branch in your local copy: right-click, create branch:
 
 |||
 | -------- | -------- |
@@ -41,40 +39,10 @@ Switch to that branch
 | ![Git-Bash-18.png](https://github.com/fmassonn/Git_Training/raw/master/resources/18.png) | |
 
 
-## Exercise 7 - Managing conflicts
-
-
-* If you belong to the left group, create a branch named develop-red
-Then switch to the branch, make changes in the styles.css file. If you belong to the "left" group, your style changes will be to make things appear in reddish tones. Edit the `styles.css` file to reach this:
-```
-.master {
-  background-color: red;
-  color: white;
-}
-
-.item {
-  background-color: orange;
-  color: white;
-}
-```
-and then visualize the result.
-
-* If you belong to the right group, create a branch named develop-green
-Then switch to the branch, make changes in the styles.css file. Your style changes will be to make things appear in greenish tones. Edit the `styles.css` file to reach this:
-```
-.master {
-  background-color: green;
-  color: white;
-}
-
-.item {
-  background-color: darkgreen;
-  color: white;
-}
-```
 and then visualize the result.
 
 As usual, commit your changes when you are satisfied, and push them.
+
 
 ## Exercise 8 – Merge branches back to the master: conflicts
 
