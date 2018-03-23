@@ -10,6 +10,22 @@ You can think of it like making an entire copy of your repository folder that yo
 
 ## Exercise 7 – Create branch in Git_Training project
 
+Create a branch in your local copy: right-click, create branch.
+
+|||
+| -------- | -------- |
+| ![Git-Bash-14.png](https://github.com/fmassonn/Git_Training/raw/master/resources/14.png) | ![Git-Bash-15.png](https://github.com/fmassonn/Git_Training/raw/master/resources/15.png) |
+
+`<branch_name>` will be `develop-red` or `develop-green`
+
+Switch to that branch
+
+|||
+| -------- | -------- |
+| ![Git-Bash-16.png](https://github.com/fmassonn/Git_Training/raw/master/resources/16.png) | ![Git-Bash-17.png](https://github.com/fmassonn/Git_Training/raw/master/resources/17.png) |
+| ![Git-Bash-18.png](https://github.com/fmassonn/Git_Training/raw/master/resources/18.png) | |
+
+
 | If you belong to the left group | If you belong to the right group 
 | -------- | -------- |
 | Ceate a branch named `develop-red`. Then switch to the branch, make changes in the `styles.css` file. | Create a branch named `develop-green`. Then switch to the branch, make changes in the `styles.css` file. |
@@ -23,23 +39,7 @@ You can think of it like making an entire copy of your repository folder that yo
 | `}` | `}` |
 | Your style changes will be to make things appear in reddish tones. | Your style changes will be to make things appear in greenish tones. |
 
-Create a branch in your local copy: right-click, create branch:
-
-|||
-| -------- | -------- |
-| ![Git-Bash-14.png](https://github.com/fmassonn/Git_Training/raw/master/resources/14.png) | ![Git-Bash-15.png](https://github.com/fmassonn/Git_Training/raw/master/resources/15.png) |
-
-`<branch_name>` could be the name of the PC you are working on.
-
-Switch to that branch
-
-|||
-| -------- | -------- |
-| ![Git-Bash-16.png](https://github.com/fmassonn/Git_Training/raw/master/resources/16.png) | ![Git-Bash-17.png](https://github.com/fmassonn/Git_Training/raw/master/resources/17.png) |
-| ![Git-Bash-18.png](https://github.com/fmassonn/Git_Training/raw/master/resources/18.png) | |
-
-
-and then visualize the result.
+And then visualize the result.
 
 As usual, commit your changes when you are satisfied, and push them.
 
