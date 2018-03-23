@@ -1,6 +1,6 @@
 # Prepare issues
 
-Xe will create an issue on Github to tell other developers in the collaborative project what are we going to do.
+We will create an issue on Github to tell other developers in the collaborative project what are we going to do.
 
 Github is a visual layer that works on Git. It displays graphically in your web browser all the information that Git provides: the ongoing developments, the track of the modifications, browse to any point in the past, ... and on top of that, allows to discuss issues in a forum format. We will centralise all developments in this portal. 
 
