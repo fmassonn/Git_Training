@@ -12,23 +12,13 @@ You can think of it like making an entire copy of your repository folder that yo
 
 Create a branch in your local copy: right-click, create branch.
 
-|||
-| -------- | -------- |
-| ![Git-Bash-14.png](https://github.com/fmassonn/Git_Training/raw/master/resources/14.png) | ![Git-Bash-15.png](https://github.com/fmassonn/Git_Training/raw/master/resources/15.png) |
-
-`<branch_name>` will be `develop-red` or `develop-green`
-
-Switch to that branch
-
-|||
-| -------- | -------- |
-| ![Git-Bash-16.png](https://github.com/fmassonn/Git_Training/raw/master/resources/16.png) | ![Git-Bash-17.png](https://github.com/fmassonn/Git_Training/raw/master/resources/17.png) |
-| ![Git-Bash-18.png](https://github.com/fmassonn/Git_Training/raw/master/resources/18.png) | |
-
-
 | If you belong to the left group | If you belong to the right group 
 | -------- | -------- |
-| Ceate a branch named `develop-red`. Then switch to the branch, make changes in the `styles.css` file. | Create a branch named `develop-green`. Then switch to the branch, make changes in the `styles.css` file. |
+| Create a branch named `develop-red`. | Create a branch named `develop-green`. |
+| ![Git-Bash-14.png](https://github.com/fmassonn/Git_Training/raw/master/resources/14.png) | ![Git-Bash-15.png](https://github.com/fmassonn/Git_Training/raw/master/resources/15.png) |
+| Switch to the branch | Switch to the branch | 
+| ![Git-Bash-16.png](https://github.com/fmassonn/Git_Training/raw/master/resources/16.png) | ![Git-Bash-18.png](https://github.com/fmassonn/Git_Training/raw/master/resources/18.png) |
+| Make changes in the `styles.css` file | Make changes in the `styles.css` file |
 | `.master {` | `.master {` |
 | `  background-color: red;` | `  background-color: green;` |
 | `  color: white;` | `  color: white;` |
