@@ -5,10 +5,10 @@ It is very simple, only consists in a HTML file and a CSS file and you will have
 
 In this tutorial you will learn how to make commits in the Git project, to create several branches, to push things to GitHub, and to follow a standard procedure to develop collaboratively. Afterwards, you should apply the same methods to any other collaborative development inside your department. The objectives will be achieved gradually following these topics:
 
-1.     [Set up your working environment](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/project/windows/working_environment)
-2.     [Prepare issues](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/project/windows/issues)
-3.     [Prepare branches](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/project/windows/branches)
-4.     [Add new content](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/project/windows/functions)
-5.     [Create pull request](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/project/windows/pull_request)
-6.     [Review and test others' branches](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/project/windows/review)
-7.     [Pull master changes](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/project/windows/pull_master)
+1.     [Set up your working environment](https://github.com/fmassonn/Git_Training/src/master/project/windows/working_environment)
+2.     [Prepare issues](https://github.com/fmassonn/Git_Training/src/master/project/windows/issues)
+3.     [Prepare branches](https://github.com/fmassonn/Git_Training/src/master/project/windows/branches)
+4.     [Add new content](https://github.com/fmassonn/Git_Training/src/master/project/windows/functions)
+5.     [Create pull request](https://github.com/fmassonn/Git_Training/src/master/project/windows/pull_request)
+6.     [Review and test others' branches](https://github.com/fmassonn/Git_Training/src/master/project/windows/review)
+7.     [Pull master changes](https://github.com/fmassonn/Git_Training/src/master/project/windows/pull_master)

@@ -4,7 +4,7 @@
 
 First of all you will have to configure git locally in your desktop:
 
-You must have git installed. See the instructions [here](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/resources/README.md)
+You must have git installed. See the instructions [here](https://github.com/fmassonn/Git_Training/src/master/resources/README.md)
 
 Go to [https://github.com/](https://github.com/) and "Sign-in".
 
@@ -16,15 +16,15 @@ To start working you need to create a clone, called afterward “working copy”
 
 For instance, paste the URL into TortoiseGit and it will clone the repo locally on your computer:
 
-![6.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/6.png)
+![6.png](https://github.com/fmassonn/Git_Training/raw/master/resources/6.png)
 
 It will ask for your username and password and you will see output like this:
 
-![7.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/7.png)
+![7.png](https://github.com/fmassonn/Git_Training/raw/master/resources/7.png)
 
 It has created a 'Git_Training' folder and you can browse into it:
 
-![8.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/8.png)
+![8.png](https://github.com/fmassonn/Git_Training/raw/master/resources/8.png)
 
 Git clone allows you to specify parameters such as the target folder. If you don't specify it the working copy will be named as the project.
 
@@ -74,29 +74,29 @@ Date:   Thu Dec 3 19:04:16 2015 +0100
 
 #### Make some changes new-file.txt
 
-![9.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/9.png)
+![9.png](https://github.com/fmassonn/Git_Training/raw/master/resources/9.png)
 
 #### Commit your local changes to your local repository
 
 Click with the right mouse button and click on “Git Commit”
 
-![10.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/10.png)
+![10.png](https://github.com/fmassonn/Git_Training/raw/master/resources/10.png)
 
 You should see the following window:
 
-![11.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/11.png)
+![11.png](https://github.com/fmassonn/Git_Training/raw/master/resources/11.png)
 
 In the message section, write a short summary of your commit. It is good practice to always have meaningful messages. Do not forget to add your files in the bottom part of the window. 
 
 When you are done with these steps, you can click on `[Commit]` and you should see the following window:
 
-![12.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/12.png)
+![12.png](https://github.com/fmassonn/Git_Training/raw/master/resources/12.png)
 
 In this window, you can see how many files were changed and how many insertions and/or deletions were made. If you are satisfied with the information just click on `[Push]`.
 
 #### Push your changes to the remote repository in GitHub
 
-![13.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/13.png)
+![13.png](https://github.com/fmassonn/Git_Training/raw/master/resources/13.png)
 
 In this window, you can manage to which branch you are pushing your files, but we will talk about branches later in the exercise. For now, just click on `[OK]` and your file will be pushed to the master branch.
 

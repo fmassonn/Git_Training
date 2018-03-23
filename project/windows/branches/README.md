@@ -10,7 +10,7 @@ Create the new branch checking off from “master” branch (Here the branch nam
 
 |||
 | -------- | -------- |
-| ![Git-Bash-14.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/14.png) | ![Git-Bash-15.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/15.png) |
+| ![Git-Bash-14.png](https://github.com/fmassonn/Git_Training/raw/master/resources/14.png) | ![Git-Bash-15.png](https://github.com/fmassonn/Git_Training/raw/master/resources/15.png) |
 
 `<branch_name>` could be the name of the PC you are working on.
 
@@ -18,5 +18,5 @@ Switch to that branch
 
 |||
 | -------- | -------- |
-| ![Git-Bash-16.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/16.png) | ![Git-Bash-17.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/17.png) |
-| ![Git-Bash-18.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/18.png) | |
+| ![Git-Bash-16.png](https://github.com/fmassonn/Git_Training/raw/master/resources/16.png) | ![Git-Bash-17.png](https://github.com/fmassonn/Git_Training/raw/master/resources/17.png) |
+| ![Git-Bash-18.png](https://github.com/fmassonn/Git_Training/raw/master/resources/18.png) | |

@@ -4,7 +4,7 @@ Once the project coordinator has accepted all pull requests, there is a new vers
 
 ## Exercise 13 - Update master branch
 
-Following instruction from [Exercise 10 – Checkout a branch from Git_Training project](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/project/windows/review), checkout the master branch.
+Following instruction from [Exercise 10 – Checkout a branch from Git_Training project](https://github.com/fmassonn/Git_Training/src/master/project/windows/review), checkout the master branch.
 
 ```
 git checkout master

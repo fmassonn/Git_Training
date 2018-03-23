@@ -2,14 +2,14 @@
 
 ## Purpose
 
-The Git Training session started with a lesson of basics on Git and collaborative development. You can find the presentation [here](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/slides/Git_ELIC.pdf).
+The Git Training session started with a lesson of basics on Git and collaborative development. You can find the presentation [here](https://github.com/fmassonn/Git_Training/src/master/slides/Git_ELIC.pdf).
 
 The second part of the Git Training consists on a hands on. The objectives are to show how to use:
 
 - Git on the command line OR TortoiseGit with Windows
 - Gogs portal
 
-We are going to do some exercises in a dummy project that you can find in this common Gogs [repository](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/project).
+We are going to do some exercises in a dummy project that you can find in this common Gogs [repository](https://github.com/fmassonn/Git_Training/src/master/project).
 
 ## Getting started
 
@@ -56,17 +56,17 @@ git clone ssh://git@www.climate.be:3022/TECLIM/Git_Training.git
 
 ### Windows or Mac
 
-[Download and Install Git](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/resources/README.md)
+[Download and Install Git](https://github.com/fmassonn/Git_Training/src/master/resources/README.md)
 
 Clone the Git_Training repository:
 
 ```
-https://www.elic.ucl.ac.be/TECLIM/Git_Training.git
+https://github.com/fmassonn/Git_Training.git
 ```
 
 For instance, paste the URL into TortoiseGit and it will clone the repo locally on your computer:
 
-![6.png](https://www.elic.ucl.ac.be/TECLIM/Git_Training/raw/master/resources/6.png)
+![6.png](https://github.com/fmassonn/Git_Training/raw/master/resources/6.png)
 
 ## Tips and Tricks
 
@@ -131,11 +131,11 @@ Then, when you want to diff, just use ```git difftool``` instead of ```git diff`
 
 ## Additional resources
 
-[Git cheat sheet](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/resources)
+[Git cheat sheet](https://github.com/fmassonn/Git_Training/src/master/resources)
 
-[Windows or MAC OS X](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/resources)
+[Windows or MAC OS X](https://github.com/fmassonn/Git_Training/src/master/resources)
 
-[Tricky commands](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/resources/tricky.md)
+[Tricky commands](https://github.com/fmassonn/Git_Training/src/master/resources/tricky.md)
 
 [Got 15 minutes and want to learn Git?](https://try.github.io)
 
@@ -153,4 +153,4 @@ Then, when you want to diff, just use ```git difftool``` instead of ```git diff`
 
 ## License
 
-This project is under the Creative Commons CC0 1.0 Universal License. See the [LICENSE](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/LICENSE) file for the full license text.
+This project is under the Creative Commons CC0 1.0 Universal License. See the [LICENSE](https://github.com/fmassonn/Git_Training/src/master/LICENSE) file for the full license text.

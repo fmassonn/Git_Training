@@ -78,7 +78,7 @@ Git has noticed that the file you edited has been modified: a red exclamation ma
 
 This will open a dialog where you can leave a message explaining what you did. **Take this step seriously!** Commits are the backbone a project: together, they define all the steps that the project has gone through, so it is important to document what each commit corresponds to. Producing clear documentation is another basics of collaborative work.
 
-Note that you can do as many commits as you wish while developing your function. If you reach a point at which any of the open issues gets solved, you can make your commit message end with `Fixes #issue_number` ([Exercise 4 – Open new issue in Git_Training project](https://www.elic.ucl.ac.be/TECLIM/Git_Training/src/master/project/windows/issues)).
+Note that you can do as many commits as you wish while developing your function. If you reach a point at which any of the open issues gets solved, you can make your commit message end with `Fixes #issue_number` ([Exercise 4 – Open new issue in Git_Training project](https://github.com/fmassonn/Git_Training/src/master/project/windows/issues)).
 
 After the commit, the file should appear with a green "V". Congratulations, you did your first commit!
 
