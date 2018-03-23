@@ -75,10 +75,10 @@ If the program does the right thing you can express your approval to the merge r
 
 ## Exercise 12 – Approve a pull request
 
-*     Open the browser and go to the Gogs project Git_Training main page.
-*     Pull requests.
-*     Choose the pull request you are willing to approve.
-*     Go to “Write” in the tab discussion, and say you are right with the pull.
-*     Click on “Add comment”.
+* Open the browser and go to the Gogs project Git_Training main page.
+* Pull requests.
+* Choose the pull request you are willing to approve.
+* Go to “Write” in the tab discussion, and say you are right with the pull.
+* Click on “Add comment”.
 
 After that, the project coordinator will accept the pull requests and a new version of the software will be released.
