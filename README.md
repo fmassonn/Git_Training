@@ -44,14 +44,14 @@ For instance:
 [ ! -f ~/.ssh/id_rsa.pub ] && ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub | xclip -sel clip
 ```
-1. Go to https://www.elic.ucl.ac.be/user/settings/ssh, 
+1. Go to https://github.com/settings/keys, 
 2. click on the 'Add Key' button, 
 3. enter the Key Name you want, 
 4. and finally do a 'CTRL-V' in Content. 
 
 And now:
 ```
-git clone ssh://git@www.climate.be:3022/TECLIM/Git_Training.git
+git clone git@github.com:fmassonn/Git_Training.git
 ```
 
 ### Windows or Mac
