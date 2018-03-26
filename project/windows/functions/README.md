@@ -65,16 +65,15 @@ Note that you can do as many commits as you wish while developing your function.
 
 After the commit, the file should appear with a green "V". Congratulations, you did your first commit!
 
-## Exercise 5 - Push your changes
+## Exercise 5 & 6 - Push your changes and Pull the project to benefit from updates by others
 Your changes to `twenty-five.html` are saved and committed locally, but for now, nobody can benefit from your work and see these changes: your local copy of the project differs from the remote version that you initially cloned from. You want to let your collaborators know about your changes, don't you? For this, you need to "push" your local copy to the remote one.
 
 Right-click on the main folder (`Git_Training`), go to TortoiseGit, and click "push". You will be asked to enter your credentials. 
 
-You'll probably get an error message at this stage: it means another user has already pushed a new version. You just need to pull the project and then try to push it again...
+> You'll probably get an error message at this stage: it means another user has already pushed a new version. You just need to pull the project and then try to push it again...
 
 Once your push is successful, your commit and the related changes will be publicly available for anyone. Congratulations!
 
-## Exercise 6 - Pull the project to benefit from updates by others
 Just like you, people around you have added contents to `twenty-five.html`. Fortunately, in this first part of the training, all modifications could be done independently and there will be no conflicts. You can update your local copy of the project in order to see the other's additions, by doing a "pull".
 
 Right-click no the main folder ('Git_Training'), go to TortoiseGit, and click "pull". Once the project is pulled, you will see everyone else's commits and everyone else's additions. Open the file `twenty-five.html`, it should now have plenty of new items.
