@@ -12,6 +12,8 @@ You can think of it like making an entire copy of your repository folder that yo
 
 The tutors - as supervisors of the project - will now create two branches: `develop-red` and `develop-green`. Follow their instructions.
 
+Now, pull your entire project to get these new branches.
+
 | If you belong to the left group | If you belong to the right group 
 | -------- | -------- |
 | Switch to the branch `develop-red` | Switch to the branch `develop-green` | 
