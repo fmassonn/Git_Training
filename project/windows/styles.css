@@ -1,10 +1,10 @@
 .master {
-  background-color: darkblue;
+  background-color: green;
   color: white;
 }
 
 .item {
-  background-color: blue;
+  background-color: darkgreen;
   color: white;
 }
 
@@ -12,13 +12,4 @@ h2.example {
   font-style: italic;
   text-align: center;
   color: teal;
-}
-
-.master {
-background-color: green;
-color: white;
-}
-.item {
-background-color: darkgreen;
-color: white;
 }
