@@ -10,13 +10,11 @@ You can think of it like making an entire copy of your repository folder that yo
 
 ## Exercise 7 – Create branch in Git_Training project
 
-Create a branch in your local copy: right-click, create branch.
+The tutors - as supervisors of the project - will now create two branches: `develop-red` and `develop-green`. Follow their instructions.
 
 | If you belong to the left group | If you belong to the right group 
 | -------- | -------- |
-| Create a branch named `develop-red`. | Create a branch named `develop-green`. |
-| ![Git-Bash-14.png](https://github.com/fmassonn/Git_Training/raw/master/resources/14.png) | ![Git-Bash-15.png](https://github.com/fmassonn/Git_Training/raw/master/resources/15.png) |
-| Switch to the branch | Switch to the branch | 
+| Switch to the branch `develop-red` | Switch to the branch `develop-green` | 
 | ![Git-Bash-16.png](https://github.com/fmassonn/Git_Training/raw/master/resources/16.png) | ![Git-Bash-18.png](https://github.com/fmassonn/Git_Training/raw/master/resources/18.png) |
 | Make changes in the `styles.css` file | Make changes in the `styles.css` file |
 | `.master {` | `.master {` |
@@ -36,7 +34,7 @@ As usual, commit your changes when you are satisfied, and push them.
 
 ## Exercise 8 – Merge branches back to the master: conflicts
 
-The tutors - as supervisors of the project - will now merge the two branches back to the master. Follow their instructions.
+The tutors will now merge the two branches back to the master. Follow their instructions.
 
 ## Exercise 9 - Solving conflicts while on the same branch
 It can happen that, when you pull the project, other users working in the same branch as you have introduced conflicting changes. Think for example at a simple text file that says
