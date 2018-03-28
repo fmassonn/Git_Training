@@ -77,3 +77,13 @@ Once your push is successful, your commit and the related changes will be public
 Just like you, people around you have added contents to `twenty-five.html`. Fortunately, in this first part of the training, all modifications could be done independently and there will be no conflicts. You can update your local copy of the project in order to see the other's additions, by doing a "pull".
 
 Right-click no the main folder ('Git_Training'), go to TortoiseGit, and click "pull". Once the project is pulled, you will see everyone else's commits and everyone else's additions. Open the file `twenty-five.html`, it should now have plenty of new items.
+
+### git tips
+
+If you want to undo all changes you made in a file **since your last commit** you need to select the file, right click to pop up the context menu and then select the command `TortoiseGit → Revert`
+
+`Revert` will only undo your local changes. It does not undo any changes which have already been committed. 
+
+If you want to undo all the changes **which were committed** in a particular revision, then you should use the log dialog and select `Revert change by this commit` on a revision/commit.
+
+Take care, you need to `commit` and `push` again the changes made.
